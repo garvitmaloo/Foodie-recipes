@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@700;900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p,
+a,
+button,
+span,
+li,
+input {
+  font-family: "PT Serif", serif;
+  letter-spacing: 0.35px;
+  font-weight: 500;
+}
+
+:root {
+  --color-primary: #f9c74f;
+  --color-secondary: #f8961e;
+
+  --color-white: #fff;
+  --color-light: #e9ecef;
+
+  --color-black: rgb(5, 5, 5);
+  --color-dark: #343a40;
+
+  --color-gray1: #ced4da;
+  --color-gray2: #adb5bd;
+  --color-gray3: #6c757d;
+
+  --slow-transition: all 400ms ease-in-out;
+  --fast-transition: all 200ms ease-in-out;
+}
